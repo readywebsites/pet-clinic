@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paws & Claws Veterinary Clinic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <i class="fas fa-paw"></i>
+          <span>Paws & Claws Vet</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#vets" class="nav-link">Our Vets</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#awards" class="nav-link">Awards</a></li>
+          <li>
+            <a href="#appointment" class="nav-link appointment-btn"
+              >Book Appointment</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1>Compassionate Care for Your Furry Family</h1>
+          <p>
+            Expert veterinary services with love and dedication. Your pet's
+            health is our top priority.
+          </p>
+          <div class="hero-buttons">
+            <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+            <a href="#services" class="btn btn-secondary">Our Services</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <i class="fas fa-heartbeat"></i>
+            <p>Trusted Veterinary Care Since 2010</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3>General Checkups</h3>
+            <p>
+              Comprehensive health examinations and preventive care for all
+              pets.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-syringe"></i>
+            </div>
+            <h3>Vaccinations</h3>
+            <p>
+              Essential vaccinations to protect your pets from common diseases.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cut"></i>
+            </div>
+            <h3>Surgery</h3>
+            <p>
+              Advanced surgical procedures performed by experienced
+              veterinarians.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <h3>Dental Care</h3>
+            <p>Professional dental cleaning and oral health treatments.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-dog"></i>
+            </div>
+            <h3>Pet Grooming</h3>
+            <p>
+              Full grooming services to keep your pet looking and feeling great.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-ambulance"></i>
+            </div>
+            <h3>Emergency Care</h3>
+            <p>24/7 emergency services for urgent medical situations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Veterinarians Section -->
+    <section id="vets" class="vets">
+      <div class="container">
+        <h2 class="section-title">Meet Our Veterinarians</h2>
+        <div class="vets-grid">
+          <div class="vet-card">
+            <div class="vet-image">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Dr. Sarah Johnson</h3>
+            <p class="vet-specialty">Small Animal Specialist</p>
+            <p>
+              15 years of experience in veterinary medicine. Specializes in
+              canine and feline care.
+            </p>
+            <div class="vet-contact">
+              <p><i class="fas fa-envelope"></i> sarah@vetclinic.com</p>
+            </div>
+          </div>
+          <div class="vet-card">
+            <div class="vet-image">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Dr. Michael Chen</h3>
+            <p class="vet-specialty">Surgery & Orthopedics</p>
+            <p>
+              Expert in advanced surgical procedures and orthopedic treatments
+              for pets.
+            </p>
+            <div class="vet-contact">
+              <p><i class="fas fa-envelope"></i> michael@vetclinic.com</p>
+            </div>
+          </div>
+          <div class="vet-card">
+            <div class="vet-image">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Dr. Emily Rodriguez</h3>
+            <p class="vet-specialty">Exotic Animals</p>
+            <p>
+              Specialized care for birds, reptiles, and other exotic pets. 10
+              years experience.
+            </p>
+            <div class="vet-contact">
+              <p><i class="fas fa-envelope"></i> emily@vetclinic.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery & Videos Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2 class="section-title">Gallery & Videos</h2>
+        <div class="gallery-container">
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <div class="gallery-image">
+                <i class="fas fa-cat"></i>
+              </div>
+              <p>Checkup Session</p>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-image">
+                <i class="fas fa-dog"></i>
+              </div>
+              <p>Dental Cleaning</p>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-image">
+                <i class="fas fa-clinic-medical"></i>
+              </div>
+              <p>Our Facility</p>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-video">
+                <i class="fas fa-play-circle"></i>
+              </div>
+              <p>Meet Our Team</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="reviews-slider">
+          <div class="review-slide active">
+            <div class="review-content">
+              <p>
+                "Dr. Johnson saved my cat's life! The emergency care was
+                exceptional and the staff was so compassionate."
+              </p>
+              <div class="review-author">
+                <h4>Lisa Thompson</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="review-slide">
+            <div class="review-content">
+              <p>
+                "Professional and caring team. My dog actually gets excited to
+                go to the vet now!"
+              </p>
+              <div class="review-author">
+                <h4>Mark Davis</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="review-slide">
+            <div class="review-content">
+              <p>
+                "The best veterinary clinic in town. They've taken care of all
+                my pets for years with consistent excellence."
+              </p>
+              <div class="review-author">
+                <h4>Jessica Wilson</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <button class="slider-btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="awards">
+      <div class="container">
+        <h2 class="section-title">Awards & Recognition</h2>
+        <div class="awards-grid">
+          <div class="award-card">
+            <div class="award-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Best Veterinary Clinic 2023</h3>
+            <p>City Pet Care Awards</p>
+          </div>
+          <div class="award-card">
+            <div class="award-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>Excellence in Animal Care</h3>
+            <p>State Veterinary Association</p>
+          </div>
+          <div class="award-card">
+            <div class="award-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Top Rated Clinic</h3>
+            <p>Pet Lovers Magazine 2022</p>
+          </div>
+          <div class="award-card">
+            <div class="award-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>Community Service Award</h3>
+            <p>Animal Welfare Society</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Booking -->
+    <section id="appointment" class="appointment">
+      <div class="container">
+        <h2 class="section-title">Book an Appointment</h2>
+        <div class="appointment-container">
+          <form id="appointmentForm" class="appointment-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="petType">Pet Type</label>
+              <select id="petType" required>
+                <option value="">Select Pet Type</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service" required>
+                <option value="">Select Service</option>
+                <option value="checkup">General Checkup</option>
+                <option value="vaccination">Vaccination</option>
+                <option value="dental">Dental Care</option>
+                <option value="grooming">Grooming</option>
+                <option value="emergency">Emergency</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" required />
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Book Appointment
+            </button>
+          </form>
+          <div class="appointment-info">
+            <h3>Contact Information</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Pet Care Street, Animal
+              City, AC 12345
+            </p>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@pawsandclaws.com</p>
+            <p>
+              <i class="fas fa-clock"></i> Mon-Fri: 8am-7pm, Sat: 9am-5pm, Sun:
+              10am-4pm
+            </p>
+            <div class="emergency-contact">
+              <h4><i class="fas fa-ambulance"></i> Emergency Contact</h4>
+              <p>24/7 Emergency Line: (555) 987-6543</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3><i class="fas fa-paw"></i> Paws & Claws Vet</h3>
+            <p>
+              Providing exceptional veterinary care with compassion and
+              expertise since 2010.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#vets">Our Vets</a></li>
+              <li><a href="#appointment">Book Appointment</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">General Checkups</a></li>
+              <li><a href="#">Vaccinations</a></li>
+              <li><a href="#">Surgery</a></li>
+              <li><a href="#">Emergency Care</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Newsletter</h3>
+            <p>Subscribe for pet care tips and clinic updates.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2023 Paws & Claws Veterinary Clinic. All rights reserved.
+          </p>
+          <p>Website created for educational purposes</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
